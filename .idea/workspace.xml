@@ -5,15 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf54b62-9338-4333-9a64-18428227e96f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KeyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/boy_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_stilldown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_stillleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_stillright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_stillup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_up1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player2/player_up2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rouge Apocalypse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rouge Apocalypse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/main/GamePanel.java" />
+    </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +68,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Game-Project-For-OOP/Rouge Apocalypse/res/player2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +79,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Game-Project-For-OOP\Rouge Apocalypse\res\player2" />
+      <recent name="D:\Game-Project-For-OOP\Rouge Apocalypse\res\player" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +100,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712113848796</updated>
-      <workItem from="1712145375366" duration="2312000" />
+      <workItem from="1712145375366" duration="2730000" />
+      <workItem from="1712228224823" duration="7416000" />
+      <workItem from="1712278108960" duration="4366000" />
     </task>
     <servers />
   </component>
