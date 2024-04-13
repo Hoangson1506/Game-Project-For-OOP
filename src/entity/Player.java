@@ -1,4 +1,5 @@
 package entity;
+import main.CollisionChecker;
 import main.GamePanel;
 import main.KeyHandler;
 
@@ -12,11 +13,18 @@ public class Player extends Entity{
     KeyHandler keyHandler;
     public final int screenX;
     public final int screenY;
+    CollisionChecker collisionChecker;
     public Player(GamePanel gamePanel, KeyHandler keyHandler) {
         this.gamePanel = gamePanel;
         this.keyHandler = keyHandler;
+        collisionChecker = new CollisionChecker(gamePanel);
         screenX = (gamePanel.screenWidth - gamePanel.tileSize) / 2;
         screenY = (gamePanel.screenHeight - gamePanel.tileSize) / 2;
+        solidArea = new Rectangle();
+        solidArea.x = 8;
+        solidArea.y = 16;
+        solidArea.width = 32;
+        solidArea.height = 32;
         setDefaultValues();
         getPlayerImage();
     }
@@ -45,19 +53,39 @@ public class Player extends Entity{
         if(keyHandler.upPressed || keyHandler.downPressed || keyHandler.leftPressed || keyHandler.rightPressed) {
             if(keyHandler.upPressed) {
                 direction = "up";
-                y -= speed;
             }
             else if(keyHandler.downPressed) {
                 direction = "down";
-                y += speed;
             }
             else if(keyHandler.leftPressed) {
                 direction = "left";
-                x -= speed;
             }
             else if(keyHandler.rightPressed) {
                 direction = "right";
-                x += speed;
+            }
+            collisionOn = false;
+            collisionChecker.checkTile(this);
+            switch (direction) {
+                case "up":
+                    if(collisionOn == false) {
+                        y -= speed;
+                    }
+                    break;
+                case "down":
+                    if(collisionOn == false) {
+                        y += speed;
+                    }
+                    break;
+                case "left":
+                    if(collisionOn == false) {
+                        x -= speed;
+                    }
+                    break;
+                case "right":
+                    if(collisionOn == false) {
+                        x += speed;
+                    }
+                    break;
             }
             spriteCounter++;
             if(spriteCounter >= 12) {

@@ -10,8 +10,8 @@ import java.io.InputStreamReader;
 
 public class TileManeger {
     GamePanel gamePanel;
-    Tile[] tiles;
-    int mapTileNum[][];
+    public Tile[] tiles;
+    public int mapTileNum[][];
     public TileManeger(GamePanel gamePanel) {
         this.gamePanel = gamePanel;
         tiles = new Tile[15];
@@ -50,10 +50,13 @@ public class TileManeger {
             tiles[0].image = ImageIO.read(getClass().getResourceAsStream("/tiles/grass.png"));
             tiles[1] = new Tile();
             tiles[1].image = ImageIO.read(getClass().getResourceAsStream("/tiles/tree.png"));
+            tiles[1].collision = true;
             tiles[2] = new Tile();
             tiles[2].image = ImageIO.read(getClass().getResourceAsStream("/tiles/water01.png"));
+            tiles[2].collision = true;
             tiles[3] = new Tile();
             tiles[3].image = ImageIO.read(getClass().getResourceAsStream("/tiles/wall.png"));
+            tiles[3].collision = true;
         }
         catch (Exception e) {
             e.getStackTrace();
